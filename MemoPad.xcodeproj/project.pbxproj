@@ -13,6 +13,7 @@
 		96237D1928B4BF460043BFD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96237D1728B4BF460043BFD3 /* Main.storyboard */; };
 		96237D1B28B4BF520043BFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96237D1A28B4BF520043BFD3 /* Assets.xcassets */; };
 		96237D1E28B4BF520043BFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96237D1C28B4BF520043BFD3 /* LaunchScreen.storyboard */; };
+		96237D2628B4C01F0043BFD3 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96237D2528B4C01F0043BFD3 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		96237D1A28B4BF520043BFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96237D1D28B4BF520043BFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96237D1F28B4BF520043BFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96237D2528B4C01F0043BFD3 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				96237D1A28B4BF520043BFD3 /* Assets.xcassets */,
 				96237D1C28B4BF520043BFD3 /* LaunchScreen.storyboard */,
 				96237D1F28B4BF520043BFD3 /* Info.plist */,
+				96237D2528B4C01F0043BFD3 /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96237D2628B4C01F0043BFD3 /* MemoViewController.swift in Sources */,
 				96237D1628B4BF460043BFD3 /* ViewController.swift in Sources */,
 				96237D1228B4BF460043BFD3 /* AppDelegate.swift in Sources */,
 				96237D1428B4BF460043BFD3 /* SceneDelegate.swift in Sources */,
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW8PPKGWF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW8PPKGWF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
